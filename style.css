@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: url("https://i.imgur.com/OG9xEkE.jpeg") no-repeat center/cover;
+}
+
+.launcher-window {
+    width: 900px;
+    height: 600px;
+    background: rgba(20, 20, 20, 0.9);
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #ddd;
+    overflow: hidden;
+}
+
+header {
+    height: 60px;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .user {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.news {
+    flex: 2;
+}
+
+.news h2 {
+    margin: 0 0 10px;
+}
+
+.news-content {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.play-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#playBtn {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 6px;
+    background: #3ca23c;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#playBtn:hover {
+    background: #45b145;
+}
+
+footer {
+    height: 40px;
+    background: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 12px;
+}
